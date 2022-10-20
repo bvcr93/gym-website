@@ -1,0 +1,39 @@
+.home {
+  width: 100%;
+  height: 80vh;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in 0.5s;
+
+
+}
+@keyframes animation {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+.homeh1 {
+  animation-name: animation;
+  animation-duration: 5s;
+}
+.btn {
+  padding: 10px;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.offer {
+  width: 500px;
+}
+
+.homeh1 {
+  font-size: 70px;
+}

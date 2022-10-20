@@ -1,0 +1,19 @@
+.footer {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    /* opacity: 0.5; */
+}
+
+
+
+.footer-container svg {
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px;
+}
