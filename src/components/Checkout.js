@@ -7,9 +7,7 @@ const Checkout = () => {
   const { items } = useContext(CartContext);
   const [total, addTotal] = useState(0);
 
-useEffect(()=> {
-
-},[])
+  useEffect(() => {}, []);
 
   const setTotal = () => {
     addTotal(

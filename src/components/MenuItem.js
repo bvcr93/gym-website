@@ -3,8 +3,8 @@ import React, { useContext } from "react";
 import CartContext from "./CartContext";
 import "./MenuItem.css";
 
-const MenuItem = ({ name, image, price, id}) => {
-  const { addToCart} = useContext(CartContext);
+const MenuItem = ({ name, image, price, id }) => {
+  const { addToCart } = useContext(CartContext);
 
   return (
     <div className="menuItem">

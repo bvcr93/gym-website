@@ -22,7 +22,6 @@ const About = () => {
           et!
         </p>
       </div>
-     
     </div>
   );
 };

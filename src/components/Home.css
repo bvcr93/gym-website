@@ -6,22 +6,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
-  transition: ease-in 0.5s;
+}
 
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-}
-@keyframes animation {
-  0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  100% {color: green;}
-}
-.homeh1 {
-  animation-name: animation;
-  animation-duration: 5s;
-}
 .btn {
   padding: 10px;
   font-weight: bold;
@@ -32,6 +26,7 @@
 
 .offer {
   width: 500px;
+  margin-left: 70px;
 }
 
 .homeh1 {
